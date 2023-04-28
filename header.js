@@ -1,7 +1,7 @@
 document.getElementById("header").innerHTML =
    `<link rel="stylesheet" href="style.css">
 
-   
+
 <header class="dark">
 <!-- navigation -->
 
@@ -76,6 +76,9 @@ document.getElementById("header").innerHTML =
       <button class="btn btn-color btn-outline-dark" type="submit">
         Search
       </button>
+      <li class="nav-item">
+        <a class="nav-link" href="cart.html">Cart</a>
+      </li>
       
     </form>
     </li>
