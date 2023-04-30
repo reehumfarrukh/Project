@@ -1,5 +1,5 @@
 document.getElementById("header").innerHTML =
-   `<link rel="stylesheet" href="style.css">
+   `<link rel="stylesheet" href="styles.css">
 
 
 <header class="dark">
@@ -66,6 +66,9 @@ document.getElementById("header").innerHTML =
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="cart.html">Cart</a>
+      </li>
+      <li class="nav-item">
       <form class="d-flex">
       <input
         class="form-control me-2"
@@ -76,9 +79,7 @@ document.getElementById("header").innerHTML =
       <button class="btn btn-color btn-outline-dark" type="submit">
         Search
       </button>
-      <li class="nav-item">
-        <a class="nav-link" href="cart.html">Cart</a>
-      </li>
+      
       
     </form>
     </li>
