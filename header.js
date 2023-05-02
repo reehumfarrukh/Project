@@ -30,15 +30,9 @@ document.getElementById("header").innerHTML =
           >Home</a
         >
       </li>
-      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="product.html" 
-      id="navbarDropdown" role="button" 
-      data-bs-toggle="dropdown" 
-      aria-expanded="false"> Products</a>
-      
-  </li>
+    
   <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="product.html" 
+          <a  href="product.html"
           id="navbarDropdown" role="button" 
           data-bs-toggle="dropdown" 
           aria-expanded="false">
