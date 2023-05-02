@@ -23,7 +23,7 @@ document.getElementById("footer").innerHTML = `
       <ul>
         <li><h5>ABOUT</h5></li>
         <li><a href="AboutUs.html">About Us</a></li>
-        <li><a href="Contact.html"></a>Contact</li>
+        <li><a href="contact.html"></a>Contact</li>
         <li><a href="team.html"></a>Team</li>
         
       </ul>
