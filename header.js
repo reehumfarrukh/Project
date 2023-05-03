@@ -41,17 +41,17 @@ document.getElementById("header").innerHTML =
       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
       <div >
       <h6 class="sub-menu-head">Product Categories </h6>
-        <li><a class="dropdown-item" href="#">Face</a></li>
-        <li><a class="dropdown-item" href="#">Eyes</a></li>
-        <li><a class="dropdown-item" href="#">Eyebrows</a></li>
-        <li><a class="dropdown-item" href="#">Lips</a></li>
+        <li><a class="dropdown-item" href="product.html">Face</a></li>
+        <li><a class="dropdown-item" href="product.html">Eyes</a></li>
+        <li><a class="dropdown-item" href="product.html">Eyebrows</a></li>
+        <li><a class="dropdown-item" href="product.html">Lips</a></li>
       </div>
        <div>
        <h5 class="sub-menu-head">Face</h5>
-       <li><a class="dropdown-item" href="#"> lipsticks</a></li>
-       <li><a class="dropdown-item" href="#"> EyeShadows</a></li>
-       <li><a class="dropdown-item" href="#"> Eyebrows</a></li>
-       <li><a class="dropdown-item" href="#"> Blush</a></li>
+       <li><a class="dropdown-item" href="product.html"> lipsticks</a></li>
+       <li><a class="dropdown-item" href="product.html"> EyeShadows</a></li>
+       <li><a class="dropdown-item" href="product.html"> Eyebrows</a></li>
+       <li><a class="dropdown-item" href="product.html"> Blush</a></li>
        </div>
       </ul>
     </li>
