@@ -936,7 +936,7 @@ nav .dropDown-menu li a {
           font-size: 20px;
         
       }
-      /* List Separator: Outer Border */
+      /****************** List Separator: Outer Border ****************************/
       
       header.dark ul.main-nav > li > a {
           border-right: 1px solid #bbb;
@@ -944,7 +944,7 @@ nav .dropDown-menu li a {
       header.mega ul.main-nav > li > a {
           border-right: 1px solid #666;
       }
-      /* List Separator: Inner Border */
+      /********************* List Separator: Inner Border*************** */
       
       ul.main-nav > li > a:after {
           content: '';
@@ -961,7 +961,7 @@ nav .dropDown-menu li a {
       header.mega ul.main-nav > li > a:after {
           background-color: #999;
       }
-      /* Drop Down/Up Arrow for Mega Menu */
+      /************************ Drop Down/Up Arrow for Mega Menu *************/
       
       ul.main-nav > li > a.mega-menu > span {
           display: block;
@@ -1067,7 +1067,7 @@ nav .dropDown-menu li a {
 
   
 
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 *{ margin: 0; padding: 0;}
 body{
@@ -1145,9 +1145,7 @@ a.btn:hover{
    color: #333;
    text-decoration: none;
 }
-.credit a:hover{
-   color: #1DBF73; 
-}
+
 .credit a:hover:after{
     font-family: FontAwesome;
     content: "\f08e";
@@ -1234,7 +1232,7 @@ article p{
 	border: 2px solid #f1f1f1;
 	box-sizing: border-box;
 }
-/* Syntax Highlighter*/
+/*****************Syntax Highlighter*********************************/
 
 pre.prettyprint {
 	padding: 15px !important;
@@ -1264,3 +1262,147 @@ nav {
     box-shadow: 0 0 5px #DDD;
     padding: 20px;
   }
+
+
+
+  
+  /***********************Login PAGE*************************/
+
+  *{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.login_box{
+	background-color:transparent;
+    padding:50px 20px;
+	width: 400px;
+	border-radius: 20px;
+	border: 1px solid black;
+	/* filter: blur(8px); */
+	backdrop-filter: blur(4px);
+}
+
+
+h1{
+	text-align:center;
+	margin-bottom: 20px;
+	font-size:40px;
+	color: black;
+}
+
+.input_box{
+	width: 90%;
+	margin: auto;
+	height: 40px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.input_box input{
+	width: 100%;
+    height:40px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+    padding: 0px 20px;
+	background-color:#000;
+	border-bottom: 1px solid black;
+	color: black;
+	font-size: 18px;
+}
+
+.input_box label{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform:translateY(-50%);
+	font-size:18px;
+	font-weight:500;
+	color: #FFF;
+	transition: .3s;
+}
+
+.icon{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+.rem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:black;
+	font-size: 14px;
+}
+
+.rem input{
+	margin-right: 5px;
+}
+
+.rem a{
+	text-decoration: none;
+	margin-left:5px;
+	color:black;
+	font-weight: bold;
+}
+
+.login{
+	display: flex;
+	justify-content: center;
+}
+
+.login button{
+	width: 200px;
+	height:40px;
+	margin-top:20px;
+	border-radius: 20px;
+	font-size:18px;
+	font-weight:bold;
+	background-color: rgb(239, 215, 229);
+	border: none;
+	outline:none;
+	transition: .3s;
+}
+
+.reg{
+	display: flex;
+	justify-content: center;
+	margin-top:20px;
+	font-size: 14px;
+	color: black;
+}
+
+.reg a{
+	text-decoration: none;
+	margin-left: 5px;
+	color: black;
+	font-weight: bold;
+}
+
+
+.input_box input:focus ~ label,
+.input_box input:valid ~ label{
+	top: 0;
+ }
+
+
+ .login button:hover{
+	cursor: pointer;
+	background-color:transparent;
+	color: black;
+	border: 1px solid black;
+ }
